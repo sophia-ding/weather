@@ -1,0 +1,7 @@
+<% @all_cities.values.each do |a| %>
+	<h1> <%= a.name  %> </h1>
+	Landmark: <%= a.landmark %> <br/>
+	Population: <%= a.population %> <br/>
+	Weather: <%= a.weather[:temperature] %>
+	<hr>
+<% end %>
